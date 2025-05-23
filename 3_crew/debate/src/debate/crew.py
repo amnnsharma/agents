@@ -37,6 +37,12 @@ class Debate():
         )
 
     @task
+    def philosoper(self) -> Task:
+        return Task(
+            config=self.tasks_config['philosoper'],
+        )
+
+    @task
     def decide(self) -> Task:
         return Task(
             config=self.tasks_config['decide'],

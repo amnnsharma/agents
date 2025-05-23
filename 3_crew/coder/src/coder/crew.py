@@ -20,8 +20,8 @@ class Coder():
             verbose=True,
             allow_code_execution=True,
             code_execution_mode="safe",  # Uses Docker for safety
-            max_execution_time=30, 
-            max_retry_limit=3 
+            max_execution_time=60, 
+            max_retry_limit=3
     )
 
 

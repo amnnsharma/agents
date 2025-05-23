@@ -11,7 +11,7 @@ from crewai.memory.storage.ltm_sqlite_storage import LTMSQLiteStorage
 class TrendingCompany(BaseModel):
     """ A company that is in the news and attracting attention """
     name: str = Field(description="Company name")
-    ticker: str = Field(description="Stock ticker symbol")
+    ticker: str = Field(description="Stock ticker symbol used in Indian stock exchange, BSE")
     reason: str = Field(description="Reason this company is trending in the news")
 
 class TrendingCompanyList(BaseModel):
