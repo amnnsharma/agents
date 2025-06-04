@@ -8,5 +8,6 @@ pinned: false
 license: apache-2.0
 short_description: Dynamic agent creation by autogen- grpc  workers
 ---
+Run the world.py to start the agent!
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
