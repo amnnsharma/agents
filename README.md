@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Master AI Agentic Engineering -  build autonomous AI Agents
 
 ### 6 week journey to code and deploy AI Agents with OpenAI Agents SDK, CrewAI, LangGraph, AutoGen and MCP
@@ -47,3 +48,18 @@ Be sure to monitor your API costs to ensure you are totally happy with any spend
 ### ABOVE ALL ELSE -
 
 Be sure to have fun with the course! You could not have picked a better time to be learning about Agentic AI. I hope you enjoy every single minute! And if you get stuck at any point - [contact me](https://www.linkedin.com/in/eddonner/).
+=======
+---
+title: Autogen Dynamic Agent
+emoji: 📉
+colorFrom: yellow
+colorTo: purple
+sdk: static
+pinned: false
+license: apache-2.0
+short_description: Dynamic agent creation by autogen- grpc  workers
+---
+Run the world.py to start the agent!
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+>>>>>>> upstream/main
