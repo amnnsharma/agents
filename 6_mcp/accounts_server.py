@@ -68,3 +68,5 @@ async def read_strategy_resource(name: str) -> str:
 
 if __name__ == "__main__":
     mcp.run(transport='stdio')
+
+# We can put these decorators in accounts.py directly, just for the clear understanding we are writing a different .py file for the server. 

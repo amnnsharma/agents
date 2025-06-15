@@ -48,3 +48,5 @@ async def get_accounts_tools_openai():
         )
         openai_tools.append(openai_tool)
     return openai_tools
+
+# ABove function is now directly provided by OpenAI agents's SDK, we do not need to do that explicitly

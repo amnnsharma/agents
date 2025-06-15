@@ -50,3 +50,10 @@ async def get_stock_tools_openai():
         )
         openai_tools.append(openai_tool)
     return openai_tools
+
+if __name__ == "__main__":
+    import asyncio
+    tools = asyncio.run(get_stock_tools_openai())
+    for tool in tools:
+        print(f"Tool: {tool.name}, Description: {tool.description}, Schema: {tool.params_json_schema}")
+    print("All tools have been listed successfully.")

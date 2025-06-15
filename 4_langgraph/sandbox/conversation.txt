@@ -1,0 +1,26 @@
+User: My name is aman  
+Assistant: Hello Aman! How can I assist you today?  
+User: What's my name?  
+Assistant: Your name is Aman.  
+User: Write a python function of palindrom string  
+Assistant: Here’s a Python function that checks whether a given string is a palindrome. A palindrome is a string that reads the same forwards and backwards, ignoring spaces, punctuation, and capitalization.
+
+```python
+ def is_palindrome(s):
+     # Remove spaces and convert to lowercase
+     s = ''.join(e for e in s if e.isalnum()).lower()
+     # Check if the string is equal to its reverse
+     return s == s[::-1]
+
+ # Example usage
+ example_string = "A man, a plan, a canal: Panama"
+ print(is_palindrome(example_string))  # Output will be True
+```  
+
+### Explanation
+- The function `is_palindrome` takes a string `s` as input.  
+- It removes any non-alphanumeric characters (like spaces and punctuation) and converts the string to lowercase.  
+- It then checks if the cleaned string is equal to its reverse.  
+- The example usage checks the string "A man, a plan, a canal: Panama", which is a well-known palindrome.
+
+You can use this function by calling it with any string you want to test. Let me know if you need any modifications or further explanations!
