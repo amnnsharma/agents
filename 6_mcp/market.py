@@ -22,7 +22,7 @@ def is_market_open() -> bool:
 def get_all_share_prices_polygon_eod() -> dict[str, float]:
     client = RESTClient(polygon_api_key)
 
-    probe = client.get_previous_close_agg("SPY")[0]
+    probe = client.get_previous_close_agg("AAPL")[0]
     last_close = datetime.fromtimestamp(probe.timestamp/1000).date()
 
     results = client.get_grouped_daily_aggs(last_close, adjusted=True, include_otc=False)
