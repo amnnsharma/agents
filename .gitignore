@@ -181,7 +181,4 @@ cython_debug/
 
 # Ignore Accounts database in capstone project
 6_mcp/accounts.db
-=======
-.env
-__pycache__
->>>>>>> upstream/main
+6_mcp/memory/*.db
